@@ -144,9 +144,9 @@ class MyGame(arcade.Window):
                 if self.custom_check_for_collision(enemy, wall):
                     enemy.change_x *= -1
                     if enemy.change_x > 0:
-                        enemy.texture = arcade.load_texture("img/zombie_right.png")  # Спрайт зомби смотрящий направо
+                        enemy.texture = arcade.load_texture("img/zombie_right.png") 
                     else:
-                        enemy.texture = arcade.load_texture("img/zombie.png")  # Спрайт зомби смотрящий налево
+                        enemy.texture = arcade.load_texture("img/zombie.png") 
                     break
 
 
